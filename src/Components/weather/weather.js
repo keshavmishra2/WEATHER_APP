@@ -95,6 +95,7 @@ console.log(temparray);
     return(
        
          <div id="outer-div">
+         <h1 id="heading">Weather App</h1>
             <div id="inner-container1">
                    <form onSubmit={showLocation}>
                      <input id="inputbux" type="text" placeholder="Enter city Name" value={value} onChange={getLocation} />
